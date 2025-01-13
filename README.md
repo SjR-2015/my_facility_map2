@@ -2,7 +2,9 @@
 
 さまざまな施設を地図上にマッピングして、みんなに広めよう！
 
-![image-20241208080751941](https://github.com/user-attachments/assets/840bf857-4fff-49d0-9faa-2a0fc6780300)
+MAP：OpenStreetMap
+
+![image](https://github.com/user-attachments/assets/5276b92a-42b6-4d2d-94c0-12d33e8e0f06)
 
 ### ディレクトリ構成
 
@@ -176,6 +178,7 @@ my_facility_map/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>汎用施設マップ</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <body>
     <div id="header">
@@ -184,8 +187,8 @@ my_facility_map/
     </div>
     <div id="map"></div>
     <div id="facility-info"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="js/index.js"></script>
-    <script src="https://www.bing.com/api/maps/mapcontrol?key=AhGQykUKW2-u1PwVjLwQkSA_1rCTFESEC7bCZ0MBrnzVbVy7KBHsmLgwW_iRJg17"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
@@ -211,8 +214,6 @@ my_facility_map/
 const initialCoordinates = [36.3134859, 139.8064811]; // 小山市の初期表示座標
 const initialZoomLevel = 14;
 
-// Bing Maps APIキー
-const bingApiKey = 'AhGQykUKW2-u1PwVjLwQkSA_1rCTFESEC7bCZ0MBrnzVbVy7KBHsmLgwW_iRJg17';
 ```
 
 以下の個所を修正してください
