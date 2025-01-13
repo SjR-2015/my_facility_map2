@@ -1,0 +1,12 @@
+{
+    "attribute_definitions": [
+        {
+            "attribute_id": 1,
+            "reserve_name": "電話番号"
+        },
+        {
+            "attribute_id": 2,
+            "reserve_name": "URL"
+        }
+    ]
+}

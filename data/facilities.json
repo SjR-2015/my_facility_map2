@@ -1,0 +1,59 @@
+{
+    "facilities": [
+        {
+            "facility_id": 1,
+            "facility_type_id": 1,
+            "facility_name": "サンプル施設１",
+            "address": "小山市",
+            "latitude": 36.31983, 
+            "longitude": 139.80872,
+            "reserve1": "03-1234-5678",
+            "reserve2": "http://example.com",
+            "reserve3": "",
+            "reserve4": "",
+            "reserve5": "",
+            "reserve6": "",
+            "reserve7": "",
+            "reserve8": "",
+            "reserve9": "",
+            "reserve10": ""
+        },
+        {
+            "facility_id": 2,
+            "facility_type_id": 2,
+            "facility_name": "サンプル施設２",
+            "address": "おやまし",
+            "latitude": 36.3134859,  
+            "longitude": 139.8064811,
+            "reserve1": "03-1234-5678",
+            "reserve2": "http://example.com",
+            "reserve3": "",
+            "reserve4": "",
+            "reserve5": "",
+            "reserve6": "",
+            "reserve7": "",
+            "reserve8": "",
+            "reserve9": "",
+            "reserve10": ""
+        },
+        {
+            "facility_id": 3,
+            "facility_type_id": 3,
+            "facility_name": "サンプル施設３",
+            "address": "おやまし",
+            "latitude": 36.3144859,  
+            "longitude": 139.8064811,
+            "reserve1": "03-1234-5678",
+            "reserve2": "http://example.com",
+            "reserve3": "",
+            "reserve4": "",
+            "reserve5": "",
+            "reserve6": "",
+            "reserve7": "",
+            "reserve8": "",
+            "reserve9": "",
+            "reserve10": ""
+        }
+    ]
+}
+

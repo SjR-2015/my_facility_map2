@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#facility-buttons {
+    margin-left: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.selected {
+    color: white;  /* 選択時の文字色 */
+    font-weight: bold;
+    border: 2px solid #ffffff; /* 枠線を太くする */
+}
+
+#map {
+    width: 100%;
+    height: calc(100vh - 60px); /* 画面全体に地図を表示し、ヘッダーの高さ分を引いています */
+}
+
+#facility-info {
+    margin: 20px;
+}

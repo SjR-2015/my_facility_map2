@@ -1,0 +1,20 @@
+{
+    "facility_types": [
+        {
+            "facility_type_id": 1,
+            "facility_type_name": "施設１",
+            "color": "#FF5733"  
+        },
+        {
+            "facility_type_id": 2,
+            "facility_type_name": "施設２",
+            "color": "#33C3FF"  
+        },
+        {
+            "facility_type_id": 3,
+            "facility_type_name": "施設３",
+            "color": "#006400"  
+        }
+
+    ]
+}
