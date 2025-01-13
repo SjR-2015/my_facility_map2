@@ -27,9 +27,11 @@ my_facility_map/
 │
 └── images/
 │
-│
+│ 
 └── doc/
-    └── 汎用施設マップ.pdf
+   ├─── 汎用施設マップ.pdf
+   └── my_facility_map_utility.xlsm
+
 ```
 
 ### 説明
@@ -56,7 +58,7 @@ my_facility_map/
 `doc/`: 汎用施設マップに関するドキュメントを格納するディレクトリ
 
 - `汎用施設マップ.pdf`: 汎用施設マップコードの説明
-
+- `my_facility_map_utility.xlsm`: JSONデータ作成用Excelファイル
 
 
 ### dataについて
