@@ -64,10 +64,14 @@ async function initMap() {
 
         const additionalInfo = attributeDefinitions.attribute_definitions.map(attr => {
             const value = facility[`reserve${attr.attribute_id}`];
-            if (value && value.startsWith('http')) {
-                // URLの場合、HTMLリンクとして表示
+            if (value.startsWith('./image')) {                // 画像の場合
+                return `<div><strong>${attr.reserve_name}:</strong><br>
+                        <img src="${value}" alt="${attr.reserve_name}" style="width:100%; max-width:200px; margin-top:8px;"></div>`;
+            } else if (value.startsWith('http')) {
+                // URLの場合
                 return `<div><strong>${attr.reserve_name}:</strong> <a href="${value}" target="_blank">${value}</a></div>`;
             } else {
+                // 通常のテキスト
                 return `<div><strong>${attr.reserve_name}:</strong> ${value}</div>`;
             }
         }).join('');
